@@ -1,0 +1,28 @@
+POST /api/login
+Host: localhost
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "testmail@gmail.com",
+    "password": "password123"
+}
+
+###
+
+POST /api/register
+Host: localhost
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "testmail@gmail.com",
+    "password": "password123",
+    "name": "Al"
+}
+
+###
+
+GET /api/tickets
+Host: localhost
+Accept: application/json
